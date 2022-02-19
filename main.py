@@ -14,4 +14,5 @@ st.title("Visual Scraper Tool")
 url = st.text_input("URL")
 
 if url != "":
-    st.info(url)
+    result = requests.get(url)
+    st.info(result.text)
