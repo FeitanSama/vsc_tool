@@ -3,4 +3,7 @@ import streamlit as st
 
 st.title("Visual Scraper Tool")
 
-st.sidebar.text_input("URL")
+url = st.text_input("URL")
+
+if url != "":
+    st.info(url)
