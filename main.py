@@ -1,5 +1,13 @@
+# PRE PROS
 import pandas as pd
+
+# WEB 
 import streamlit as st
+
+# SCRAP
+from bs4 import BeautifulSoup
+import requests
+import selenium
 
 st.title("Visual Scraper Tool")
 
